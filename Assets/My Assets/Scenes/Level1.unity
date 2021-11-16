@@ -3494,6 +3494,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1960137285}
+  - {fileID: 1601872374}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4066,6 +4067,79 @@ Transform:
   m_Father: {fileID: 1809432711}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1601872373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601872374}
+  - component: {fileID: 1601872376}
+  - component: {fileID: 1601872375}
+  m_Layer: 5
+  m_Name: HeartContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1601872374
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601872373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1398031584}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 40, y: 0}
+  m_SizeDelta: {x: 80, y: 320}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1601872375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601872373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4e50c608f5ac3b489cf8c89e9326836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1601872376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601872373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 1
+  m_StartCorner: 0
+  m_StartAxis: 1
+  m_CellSize: {x: 40, y: 40}
+  m_Spacing: {x: 0, y: 10}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1 &1644610878
 GameObject:
   m_ObjectHideFlags: 0
@@ -6225,6 +6299,63 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: health
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: fullHeart
+      value: 
+      objectReference: {fileID: 21300000, guid: 8f03d65eca65243d0963f648c2e9824a,
+        type: 3}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: emptyHeart
+      value: 
+      objectReference: {fileID: 21300000, guid: af1d44c8d77c341869dcdb0b63c5cff8,
+        type: 3}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: numOfHearts
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: hearts.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: hearts.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: hearts.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: hearts.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: hearts.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: hearts.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -8195381624992963325, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
+        type: 3}
+      propertyPath: hearts.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2094219118720568374, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909,
         type: 3}
       propertyPath: m_Name

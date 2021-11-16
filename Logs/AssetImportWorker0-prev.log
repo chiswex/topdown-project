@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2021.1.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/gip chisse/05-10/topdown project
+D:/gip chisse/9-11/topdown-project-main
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54873
-Successfully changed project path to: D:/gip chisse/05-10/topdown project
-D:/gip chisse/05-10/topdown project
+50929
+Successfully changed project path to: D:/gip chisse/9-11/topdown-project-main
+D:/gip chisse/9-11/topdown-project-main
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 64.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/gip chisse/05-10/topdown project/Assets
+[Subsystems] Discovering subsystems at path D:/gip chisse/9-11/topdown-project-main/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,41 +35,173 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002528 seconds.
+Registered in 0.002387 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 64.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.433 seconds
+- Completed reload, in  1.332 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001430 seconds.
+Registered in 0.001331 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 62.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.040 seconds
+- Completed reload, in  1.010 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2030 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.8 MB.
-System memory in use after: 98.9 MB.
+System memory in use before: 98.6 MB.
+System memory in use after: 98.7 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2492.
-Total: 2.412700 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.067000 ms  DeleteObjects: 0.093300 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2494.
+Total: 2.349600 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.050300 ms MarkObjects: 2.044000 ms  DeleteObjects: 0.065900 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_2.asset
+  artifactKey: Guid(8afe4796fa7a4034abace4f2c877310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_2.asset using Guid(8afe4796fa7a4034abace4f2c877310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd8cf689e3481f1f6413b98c581fdc8') in 0.090663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_5.asset
+  artifactKey: Guid(603359f03d298e1479ef4bc9950ee8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_5.asset using Guid(603359f03d298e1479ef4bc9950ee8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ff8cc913397969346085575b53c1c7') in 0.010134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_8.asset
+  artifactKey: Guid(188360d28cbf86f4085c7d95b2ea9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_8.asset using Guid(188360d28cbf86f4085c7d95b2ea9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28574bdacd16214efc039d8008ca73e7') in 0.013401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_7.asset
+  artifactKey: Guid(2ba16777e1d828c43b297a91ec8f530e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_7.asset using Guid(2ba16777e1d828c43b297a91ec8f530e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0b81953945d61919e488cc11551ad6') in 0.008678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_1.asset
+  artifactKey: Guid(68bff48bce192a44d81ee435a24444c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_1.asset using Guid(68bff48bce192a44d81ee435a24444c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd079cb44743cb329ec3dfe3eb9ef2de8') in 0.008165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/downloaded assets/FX/Prefabs/FX001_01.prefab
+  artifactKey: Guid(3e196c9e632c76841a71cb6e2dc6d010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/FX/Prefabs/FX001_01.prefab using Guid(3e196c9e632c76841a71cb6e2dc6d010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258c9b80b5162901075ce9b503ae0ca3') in 0.059420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/downloaded assets/FX/Prefabs/FX003_01.prefab
+  artifactKey: Guid(9deea548c44c9ac4e94d6932a0d85eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/FX/Prefabs/FX003_01.prefab using Guid(9deea548c44c9ac4e94d6932a0d85eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ecf1492fc7d3e6946e226826389234') in 0.033990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_4.asset
+  artifactKey: Guid(c01a72d217f5b334fac57a5f96e36671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_4.asset using Guid(c01a72d217f5b334fac57a5f96e36671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018e770e0d72cf5f4b336c17f8f979ab') in 0.007670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_0.asset
+  artifactKey: Guid(b3eaef07a36a98241a51ab246847735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_0.asset using Guid(b3eaef07a36a98241a51ab246847735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf934975e95b33c17cc90e9b5875697') in 0.009098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/downloaded assets/FX/Prefabs/FX002_01.prefab
+  artifactKey: Guid(d6d04e4b024a73147a9b9f10d607f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/FX/Prefabs/FX002_01.prefab using Guid(d6d04e4b024a73147a9b9f10d607f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f572ef3562c62fd5b9a1c45848bea24') in 0.025342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_3.asset
+  artifactKey: Guid(5d6edc6cbe65dfa48b32b2e1b19b49c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_3.asset using Guid(5d6edc6cbe65dfa48b32b2e1b19b49c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d30acf4e2bab6caeb1d94a9a5b5d60') in 0.008641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_6.asset
+  artifactKey: Guid(7dbf9146e6da2f54d9b4c34e29453b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloaded assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Sprites/Dungeon-2D-PixelArt-Tileset_6.asset using Guid(7dbf9146e6da2f54d9b4c34e29453b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53453c05cebee6932c9c47a51d94781f') in 0.007742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 577.639877 seconds.
+  path: Assets/stuff/Bouncy.physicsMaterial2D
+  artifactKey: Guid(7d362e9b8e965d64fbe693c13b3a412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stuff/Bouncy.physicsMaterial2D using Guid(7d362e9b8e965d64fbe693c13b3a412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8864c0f61e635631915be684979b2c22') in 0.008456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/stuff/gren.jpg
+  artifactKey: Guid(86dcd3fca666b374aaaeb328981aab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stuff/gren.jpg using Guid(86dcd3fca666b374aaaeb328981aab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da04b94ff97079eac10ed85ee7c9bcc2') in 0.067788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/stuff/Wall.physicMaterial
+  artifactKey: Guid(37f7353d539c0ee43ad0c3b79219bd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stuff/Wall.physicMaterial using Guid(37f7353d539c0ee43ad0c3b79219bd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7b01d091f8bebca7cfb58aa5590a56') in 0.011302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
   path: Assets/stuff/LevelLoader.prefab
   artifactKey: Guid(ffb2c152993f67c4ea9db8a50cc63022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stuff/LevelLoader.prefab using Guid(ffb2c152993f67c4ea9db8a50cc63022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3941054c697fd8c275ef226498959789') in 0.052834 seconds 
+Start importing Assets/stuff/LevelLoader.prefab using Guid(ffb2c152993f67c4ea9db8a50cc63022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3941054c697fd8c275ef226498959789') in 0.014583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.829630 seconds.
+  path: Assets/stuff/Heart.prefab
+  artifactKey: Guid(2c86f862df89124468153e635e831d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stuff/Heart.prefab using Guid(2c86f862df89124468153e635e831d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff715e03f2559c0cb28fca8618f16ba') in 0.006902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.212615 seconds.
+  path: Assets/stuff/Empty Heart.prefab
+  artifactKey: Guid(79e0f6cf8731a16428642a18563dd10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stuff/Empty Heart.prefab using Guid(79e0f6cf8731a16428642a18563dd10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eefa3c2e4ad0bffe43b65937921c8ce') in 0.008257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.687121 seconds.
+  path: Assets/My Assets/Scripts/healthsystem.cs
+  artifactKey: Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/healthsystem.cs using Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca146a85498344726b62b284c87dffb') in 0.012413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 740.468764 seconds.
+  path: Assets/My Assets/Scripts/healthsystem.cs
+  artifactKey: Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/healthsystem.cs using Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9abf5e52b36cf5f0531e64cd7e17f41') in 0.001890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1178.731455 seconds.
+  path: Assets/My Assets/Scripts/healthsystem.cs
+  artifactKey: Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/healthsystem.cs using Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba97225ac8c2af1cae2d28e9208c5dc') in 0.001942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.740866 seconds.
+  path: Assets/My Assets/Scripts/healthsystem.cs
+  artifactKey: Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/healthsystem.cs using Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070fda5ef53c7e8380ab5519f155e505') in 0.001807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.805286 seconds.
+  path: Assets/My Assets/Scripts/healthsystem.cs
+  artifactKey: Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/healthsystem.cs using Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a399f5c1fa785708e7b83151884461d') in 0.001922 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
