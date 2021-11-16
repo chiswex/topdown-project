@@ -5,13 +5,13 @@ public class healthsystem : MonoBehaviour
     [SerializeField] GameObject HeartPrefab;
     [SerializeField] GameObject EmptyHeartPrefab;
 
-    public void DrawHeart(internal hearts, int maxHearts) 
+    public void DrawHearts(int hearts, int maxHearts) 
     {    
-        foreach (Transform child in transform)
-        {
-          Destroy(child.gameObject);
-        }
-        for (int i  = 0; i < maxHearts; i++)
+        foreach (Transform child in transform){
+        
+          Destroy(child.gameObject); }
+}
+        for (int i = 0; i < maxHearts; i++)
         {
             if (i + 1 <= hearts)
             {

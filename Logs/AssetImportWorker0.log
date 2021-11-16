@@ -1,0 +1,81 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19041.450; Version 2004; 64bit' Language: 'nl' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/gip chisse/05-10/topdown project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51766
+Successfully changed project path to: D:/gip chisse/05-10/topdown project
+D:/gip chisse/05-10/topdown project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/gip chisse/05-10/topdown project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon 520 (ID=0x6611)
+    Vendor:   ATI
+    VRAM:     2028 MB
+    Driver:   25.20.15032.3007
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002374 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2031 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2495.
+Total: 2.416400 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.050200 ms MarkObjects: 2.116200 ms  DeleteObjects: 0.062600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/My Assets/Scripts/healthsystem.cs
+  artifactKey: Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/healthsystem.cs using Guid(b4e50c608f5ac3b489cf8c89e9326836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690b5936909620dfae584c57bd50357e') in 0.022592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.755604 seconds.
+  path: Assets/My Assets/Scripts/Playerhp.cs
+  artifactKey: Guid(6a0b04d4cdf84bf4e9ff9b72e4060259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Playerhp.cs using Guid(6a0b04d4cdf84bf4e9ff9b72e4060259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cddc6fdb8d392bcedd3519c132b8392') in 0.006250 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
