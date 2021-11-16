@@ -3413,6 +3413,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cceb9e0984f6686479b40511c957a2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hearts: 4
+  maxHearts: 8
+  hs: {fileID: 1601872375}
 --- !u!1 &1398031580
 GameObject:
   m_ObjectHideFlags: 0
@@ -4128,6 +4131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e50c608f5ac3b489cf8c89e9326836, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeartPrefab: {fileID: 1456605849383361612, guid: 2c86f862df89124468153e635e831d1e,
+    type: 3}
+  EmptyHeartPrefab: {fileID: 2680428276276346409, guid: 79e0f6cf8731a16428642a18563dd10b,
+    type: 3}
 --- !u!114 &1601872376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4148,7 +4155,7 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 40, y: 40}
+  m_CellSize: {x: 15, y: 15}
   m_Spacing: {x: 0, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -6668,7 +6675,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3712158738671148327, guid: 710d5f7de52c9fc42a06f75d5ff1ed72, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 710d5f7de52c9fc42a06f75d5ff1ed72, type: 3}
 --- !u!1001 &8329018751401295106
 PrefabInstance:
