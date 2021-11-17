@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
-        hs.DrawHearts(hearts, maxHearts);
+        hs.DrawHearts (hearts, maxHearts);
     }
     public void DamagePlayer (int dmg)
     {
@@ -21,7 +21,7 @@ public class PlayerHealth : MonoBehaviour
         }
 
     }
-    public void HealPlayer(int dmg)
+    public void HealPlayer (int dmg)
     {
         if (hearts < maxHearts)
         {
