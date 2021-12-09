@@ -15,7 +15,7 @@ public class WaveSpawner : MonoBehaviour
 {
     public Wave[] waves;
     public Transform[] spawnPoints;
-    public Animator animator;
+    //public Animator animator;
     public Text waveName;
 
     public GameObject player;
@@ -25,7 +25,7 @@ public class WaveSpawner : MonoBehaviour
     private float nextSpawnTime;
 
     private bool canSpawn = true;
-    private bool canAnimate = false;
+    //private bool canAnimate = false;
 
 
     private void Update()
@@ -37,11 +37,11 @@ public class WaveSpawner : MonoBehaviour
         {
             if (currentWaveNumber + 1 != waves.Length)
             {
-                if (canAnimate)
+                //if (canAnimate)
                 {
                     waveName.text = waves[currentWaveNumber + 1].waveName;
-                    animator.SetTrigger("WaveComplete");
-                    canAnimate = false;
+                    //animator.SetTrigger("WaveComplete");
+                    //canAnimate = false;
                 }
 
             }
@@ -74,8 +74,9 @@ public class WaveSpawner : MonoBehaviour
             nextSpawnTime = Time.time + currentWave.spawnInterval;
             if (currentWave.noOfEnemies == 0)
             {
-                canSpawn = false;
-                canAnimate = true;
+                canSpawn = true;
+                //canSpawn = false;
+                //canAnimate = true;
             }
         }
 
