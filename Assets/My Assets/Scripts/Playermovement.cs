@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Playermovement : MonoBehaviour
 {
+    [SerializeField] Transform hand;
+
+
     public float moveSpeed;
 
     public Rigidbody2D rb;
@@ -18,6 +21,13 @@ public class Playermovement : MonoBehaviour
     {
         ProcessInputs();
         Animate();
+        RotateHand();
+    }
+
+    void RotateHand()
+    {
+        float angle = Utility.AngleTowardsMouse(hand.position);
+        hand.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
     }
 
     void FixedUpdate()
