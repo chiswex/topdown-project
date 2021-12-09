@@ -3413,21 +3413,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cceb9e0984f6686479b40511c957a2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dmg: 1
   hearts: 4
   maxHearts: 8
   hs: {fileID: 1601872375}
---- !u!114 &1329217372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1329217370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2892fb33765d70d43b92e8c324fdcde9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1398031580
 GameObject:
   m_ObjectHideFlags: 0
@@ -6463,6 +6452,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2606501865454886627, guid: 7da656312c96b1c43afdaaa11894e5da,
+        type: 3}
+      propertyPath: attackSpeed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6208052602913921574, guid: 7da656312c96b1c43afdaaa11894e5da,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -6573,6 +6567,11 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.3767326
       objectReference: {fileID: 0}
+    - target: {fileID: 6208052602952932331, guid: 7da656312c96b1c43afdaaa11894e5da,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6208052602952932332, guid: 7da656312c96b1c43afdaaa11894e5da,
         type: 3}
       propertyPath: m_Name
@@ -6592,6 +6591,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5614513129602071246, guid: 710d5f7de52c9fc42a06f75d5ff1ed72,
+        type: 3}
+      propertyPath: attackSpeed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1696500039360447914, guid: 710d5f7de52c9fc42a06f75d5ff1ed72,
         type: 3}
       propertyPath: target
@@ -6601,6 +6605,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266334192942856753, guid: 710d5f7de52c9fc42a06f75d5ff1ed72,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6266334192942856754, guid: 710d5f7de52c9fc42a06f75d5ff1ed72,
         type: 3}
@@ -6621,6 +6630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: radius
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266334192942856909, guid: 710d5f7de52c9fc42a06f75d5ff1ed72,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 6266334192942856909, guid: 710d5f7de52c9fc42a06f75d5ff1ed72,
         type: 3}

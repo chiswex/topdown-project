@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 6266334192942856754}
   - component: {fileID: 6266334192942856753}
   - component: {fileID: 1696500039360447914}
+  - component: {fileID: -5614513129602071246}
   m_Layer: 0
   m_Name: Enemymole
   m_TagString: Enemy
@@ -185,7 +186,7 @@ MonoBehaviour:
   repathRate: 0.2
   canSearch: 1
   canMove: 1
-  maxSpeed: 3.5
+  maxSpeed: 3.4
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -254,3 +255,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 2094219118720568392, guid: 7d55eaf8ffaf4dd47b192aa28b0d1909, type: 3}
+--- !u!114 &-5614513129602071246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266334192942856908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2892fb33765d70d43b92e8c324fdcde9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 1
