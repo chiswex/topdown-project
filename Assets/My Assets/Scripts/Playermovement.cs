@@ -23,16 +23,16 @@ public class Playermovement : MonoBehaviour
         Animate();
         RotateHand();
     }
+    
+    void FixedUpdate()
+    {
+        Move();
+    }
 
     void RotateHand()
     {
         float angle = Utility.AngleTowardsMouse(hand.position);
         hand.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
-    }
-
-    void FixedUpdate()
-    {
-        Move();
     }
 
     void ProcessInputs()

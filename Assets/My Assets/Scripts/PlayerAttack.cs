@@ -31,7 +31,7 @@ public class PlayerAttack : MonoBehaviour
         {
             FireBow();
         }
-        else
+        else 
         {
             if (BowCharge > 0f)
             {
@@ -62,10 +62,10 @@ public class PlayerAttack : MonoBehaviour
     {
         if (BowCharge > MaxBowCharge) BowCharge = MaxBowCharge;
         float ArrowSpeed = BowCharge + BowPower;
-        float angle = Utility.AngleTowardsMouse(Bow.Position);
+        float angle = Utility.AngleTowardsMouse(Bow.position);
         Quaternion rot = Quaternion.Euler(new Vector3(0f, 0f, angle - 90f));
 
-        Shot Arrow = Instantiate(ArrowPrefab, Bow.Position, rot).GetComponent<Shot>();
+        Shot Arrow = Instantiate(ArrowPrefab, Bow.position, rot).GetComponent<Shot>();
         Arrow.ArrowVelocity = ArrowSpeed;
 
         CanFire = false;
